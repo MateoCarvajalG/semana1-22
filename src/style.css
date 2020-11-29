@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width : 1200px
+}
+
+.header{
+    background-color: dimgray;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.titulo-principal{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.barra-superior__titulo{
+    position: absolute;
+    
+    
+}
+.contenedor-menu{
+width: 50%;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__item > a:hover{
+   text-decoration: none;
+}
+.menu-principal__item > a:hover{
+    font-size: 20px;
+    text-decoration: underline 
+}
