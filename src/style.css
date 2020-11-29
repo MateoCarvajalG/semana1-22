@@ -43,3 +43,16 @@ width: 50%;
     font-size: 20px;
     text-decoration: underline 
 }
+
+.servicios{
+    background-color: rgb(145, 209, 145);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.servicios__contenedor{
+    margin-right:25px;
+    padding: 10px;
+    
+}
